@@ -1,0 +1,19 @@
+{
+	"name": "Front-End-Lib Management",
+	"version": "0.0.1",
+	"dependencies": {
+		"bootstrap": "*",
+		"bootstrap-multiselect": "*",
+		
+		"angular": "*",
+		"angular-resource": "*",
+		"angular-mocks": "*",
+		"angular-cookies": "*",
+		"angular-animate": "*",
+		"angular-touch": "*",
+		"angular-sanitize": "*",
+		"angular-bootstrap": "*",
+		"angular-ui-utils": "*",
+		"angular-ui-router": "*"
+	}
+}

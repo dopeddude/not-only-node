@@ -1,0 +1,44 @@
+{
+  "name": "Front-End-Build-Tool",
+  "description": "Utility for building related task for bifurcation project.",
+  "version": "0.1.1",
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.4.x"
+  },
+  "scripts": {
+    "start_temp": "echo. && echo ---INITIATING FRONT-END-BUILD---",
+    "start": "echo. && echo ---INITIATING FRONT-END-BUILD--- && npm install",
+    "preinstall": "echo ---INITIATING DEPENDENCIES-INSTALL---",
+    "install": "echo ---DEPENDENCIES-INSTALL SUCCESSFULLY COMPLETED--- && npm run bower",
+    "bower": "echo ---INITIATING BOWER--- && bower install --config.interactive=true && echo ---BOWER SUCCESSFULLY COMPLETED--- && npm run gulp",
+    "gulp": "echo ---INITIATING GULP--- && gulp && echo ---GULP SUCCESSFULLY COMPLETED---",
+    "postinstall": "echo ---FRONT-END-BUILD SUCCESSFULLY COMPLETED---"
+  },
+  "devDependencies": {
+    "bower": "*",
+    "browserify": "*",
+    "npm-css": "*",
+
+    "chalk": "*",
+    "glob": "*",
+
+    "gulp": "*",
+    "gulp-jshint": "*",
+    "gulp-concat": "*",
+    "gulp-rename": "*",
+    "gulp-less": "*",
+    "gulp-minify": "*",
+    "gulp-uglify": "*",
+    "gulp-imagemin": "*"
+  },
+  "dependencies": {
+    "url": "*",
+    "lodash": "*",
+    "diff-json": "*",
+    "changeset": "*",
+    "expect": "*",
+    "expect.js": "*",
+    "should": "*"
+  }
+}
