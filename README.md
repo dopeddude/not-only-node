@@ -1,17 +1,19 @@
 # not-only-node
 
----------------------------------
-
-## Please note that followings are the specs/features which will be implemented in future.
-## Current status is not complete and not at all ready for use as of now.
+#### The stack has been developed in the spirit of facilitating a common web application architecture to server side Java and NodeJS Developers both.
 
 ---------------------------------
 
-## The stack has been developed in the spirit of facilitating a common web application architecture to server side Java and NodeJS Developers both.
+##### Please note that followings are the specs/features which will be implemented in future.
+##### Current status is not complete and not at all ready for use as of now.
 
-The client serving assets are placed in *src/main/webapp/client-assets* folder.
-This folder is common for using in either of the mode be it Java or be it NodeJS.
-Running the front-end-build does the following
+---------------------------------
+
+**Description**
+
+* The client serving assets are placed in `src/main/webapp/client-assets` folder.
+* This folder is common for using in either of the mode be it Java or be it NodeJS.
+* Running the front-end-build does the following
     * downloads the bower dependencies and installs it to the `client-assets/bower-repo` folder.
     * will compile the css files to the output counterparts css
     * will run the JSLint / CSSLint related validations
