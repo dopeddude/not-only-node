@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.accuracap.non</groupId>
-	<artifactId>bifurcation</artifactId>
+	<groupId>com.dopeddude.non</groupId>
+	<artifactId>not-only-node-stack</artifactId>
 	<packaging>war</packaging>
 	<version>0.1.1</version>
-	<name>Web Application to facilitate the buy/sell advice and bifurcation for trades.</name>
+	<name>Web - Application - Name</name>
 	<url>http://maven.apache.org</url>
 
 	<dependencies>
@@ -50,12 +50,6 @@
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
 			<version>3.0</version>
-		</dependency>
-
-		<dependency>
-			<groupId>com.googlecode.java-diff-utils</groupId>
-			<artifactId>diffutils</artifactId>
-			<version>1.2.1</version>
 		</dependency>
 
 	</dependencies>

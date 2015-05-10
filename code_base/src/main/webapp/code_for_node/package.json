@@ -1,6 +1,6 @@
 {
-	"name": "bifurcation",
-	"description": "Web Application to facilitate the buy/sell advice and bifurcation for trades.",
+	"name": "not-only-node-stack",
+	"description": "BLANK_AS_OF_NOW",
 	"version": "0.1.1",
 	"engines": {
 		"node": "0.10.x",
@@ -9,7 +9,7 @@
 	"scripts": {
 		"env_path": "echo. && Powershell.exe write-host -foregroundcolor Green %path:;= ^ && Powershell.exe write-host -foregroundcolor Green % && echo.",
 
-		"build": "echo. && Powershell.exe write-host -foregroundcolor Green ---INITIATING MAIN BUILD--- && npm run front_end_build",
+		"install": "echo. && Powershell.exe write-host -foregroundcolor Green ---INITIATING MAIN BUILD--- && npm run front_end_build",
 		"front_end_build": "(cd %cd%/../../front-end-build && npm start && cd %cd%) && Powershell.exe write-host -foregroundcolor Green ---SUCCESSFULLY COMPLETED MAIN BUILD---",
 
 		"build-js": "browserify -t reactify app/js/main.js | uglifyjs -mc > static/bundle.js",
